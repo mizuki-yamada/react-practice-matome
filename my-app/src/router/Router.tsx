@@ -2,9 +2,6 @@ import { memo, FC } from "react";
 import { Route, Routes } from "react-router-dom";
 import { Login } from "../components/pages/Login";
 import { HomeRoutes } from "./HomeRoutes";
-import { UserManagement } from "../components/pages/UserManagement";
-import { Setting } from "../components/pages/Setting";
-import { Home } from "../components/pages/Home";
 import { NotFound } from "../components/pages/NotFound";
 
 export const Router: FC = memo(() => {
